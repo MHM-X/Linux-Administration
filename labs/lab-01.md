@@ -1,11 +1,12 @@
 # Lab 01: "Saint John" — What Is Writing to This Log File?
 
-## 📄 Description
-A process is continuously appending unwanted entries to `/var/log/messages` (or a specific log file), and the goal is to identify **which process** is responsible for writing to it, then stop it. This lab tests your ability to trace file writers using process and file-descriptor inspection tools.
+## Description
+A developer created a testing program that is continuously writing to a log file /var/log/bad.log and filling up disk. You can check for example with tail -f /var/log/bad.log.
+This program is no longer needed. Find it and terminate it. Do not delete the log file.
 
-🔗 **Lab Link:** [SadServers - "Saint John"](https://sadservers.com/scenarios/linux-server-log)
+🔗 **Lab Link:** [SadServers - "Saint John"](https://sadservers.com/scenario/saint-john)
 
----
+<br>
 
 ## 🪜 Steps
 
