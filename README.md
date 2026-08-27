@@ -4,7 +4,6 @@
   <strong>A hands-on journey into Linux system administration</strong><br>
   Learning through practice, troubleshooting, and real-world scenarios.
 </p>
----
 
 ## Learning Resources
 
