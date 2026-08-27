@@ -31,8 +31,8 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 
 | # | Lab |
 |---|-----|
-| 01 | ["Saint John": what is writing to this log file?](Linux-Administration/labs/lab-01.md) |
-| 02 | ["Saskatoon": counting IPs.](Linux-Administration/labs/lab-02.md) |
+| 01 | ["Saint John": what is writing to this log file?](labs/lab-01.md) |
+| 02 | ["Saskatoon": counting IPs.](labs/lab-02.md) |
 | 03 | [Lab 03](Linux-Administration/labs/lab-03.md) |
 | 04 | [Lab 04](Linux-Administration/labs/lab-04.md) |
 | 05 | [Lab 05](Linux-Administration/labs/lab-05.md) |
