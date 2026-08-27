@@ -19,13 +19,13 @@ Alongside the course, I created my own notebook containing the concepts, command
 
 🔗 **My Linux Administration Notes:** [Open Notes](https://resonant-squirrel-9a6.notion.site/Linux-Administration-Course-3901394011ca8081b0e5d965f8ddc8b6?source=copy_link)
 
-
+---
 
 ## Practical Labs
 
-To turn the theoretical knowledge from the course into practical skills, I solved real-world Linux administration scenarios using **[SadServers](https://sadservers.com/scenarios/topic/linux-bash)**.
+Real-world Linux troubleshooting scenarios from **[SadServers](https://sadservers.com/scenarios/topic/linux-bash)**.
 
-Each lab below has its own page containing the **scenario, investigation process, commands used, and solution steps**.
+> **Each lab:** Scenario · Investigation · Commands · Solution
 
 ## 🖥️ SadServers Labs
 
