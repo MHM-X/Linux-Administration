@@ -28,8 +28,3 @@ lsof | grep /var/log/messages
 
 ### Step 3: Identify and inspect the process
 Once you have the PID from the previous step, look it up to see what the process actually is (its command, parent process, and how it started) — for example with `ps -p <PID> -f`. This step is often just investigation and reasoning, so no command or image is required if the PID/process is self-explanatory from the previous step.
-
----
-
-## ✅ Solution
-Summarize the root cause here (which process/service was writing to the file) and the fix or answer required by the lab (e.g., stopping the service, redirecting its output, or renaming the culprit as required by the scenario).
