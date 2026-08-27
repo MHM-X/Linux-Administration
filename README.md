@@ -1,6 +1,9 @@
 <h1 align="center">🐧 Linux Administration Journey</h1>
 
-
+<p align="center">
+  <strong>A hands-on journey through Linux system administration</strong><br>
+  Built to strengthen my Linux administration skills as part of my Cloud DevOps learning path.
+</p>
 
 <p align="center">
   This stage combines structured learning, personal notes, and practical troubleshooting scenarios.
