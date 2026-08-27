@@ -27,7 +27,7 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 
 > **Each lab:** Scenario · Investigation · Commands · Solution
 
-## 🖥️ SadServers Labs
+### 🖥️ SadServers Labs
 
 | # | Lab |
 |---|-----|
