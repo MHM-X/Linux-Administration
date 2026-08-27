@@ -1,25 +1,20 @@
 <h1 align="center">🐧 Linux Administration Journey</h1>
 
 <p align="center">
-  <strong>A hands-on journey through Linux system administration</strong><br>
-  Built to strengthen my Linux administration skills as part of my Cloud DevOps learning path.
+  <strong>A hands-on journey into Linux system administration</strong><br>
+  Learning through practice, troubleshooting, and real-world scenarios.
 </p>
-
-<p align="center">
-  This stage combines structured learning, personal notes, and practical troubleshooting scenarios.
-</p>
-
 ---
 
-## 📚 Learning Resources
+## Learning Resources
 
-### 🎓 Linux Administration Course
+### Linux Administration Course
 
 I started this stage by completing a dedicated Linux Administration course to build a strong foundation in Linux system administration, server management, networking, storage, security, and troubleshooting.
 
 🔗 **Course:** [Linux Administration Course](https://www.youtube.com/playlist?list=PLsWFuR2EEv1uIV2vzqAhSa8gI6IG9dMpc)
 
-### 📝 My Notes
+### My Notes
 
 Alongside the course, I created my own notebook containing the concepts, commands, explanations, and important notes that I learned throughout the course.
 
@@ -27,7 +22,7 @@ Alongside the course, I created my own notebook containing the concepts, command
 
 ---
 
-## 🧪 Practical Labs
+## Practical Labs
 
 To turn the theoretical knowledge from the course into practical skills, I solved real-world Linux administration scenarios using **[SadServers](https://sadservers.com/scenarios/topic/linux-bash)**.
 
