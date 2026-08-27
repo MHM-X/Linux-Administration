@@ -17,13 +17,13 @@
 
 I started this stage by completing a dedicated Linux Administration course to build a strong foundation in Linux system administration, server management, networking, storage, security, and troubleshooting.
 
-🔗 **Course:** [Linux Administration Course]([COURSE_LINK](https://www.youtube.com/playlist?list=PLsWFuR2EEv1uIV2vzqAhSa8gI6IG9dMpc))
+🔗 **Course:** [Linux Administration Course](https://www.youtube.com/playlist?list=PLsWFuR2EEv1uIV2vzqAhSa8gI6IG9dMpc)
 
 ### 📝 My Notes
 
 Alongside the course, I created my own notebook containing the concepts, commands, explanations, and important notes that I learned throughout the course.
 
-🔗 **My Linux Administration Notes:** [Open Notes]([NOTES_LINK](https://resonant-squirrel-9a6.notion.site/Linux-Administration-Course-3901394011ca8081b0e5d965f8ddc8b6?source=copy_link))
+🔗 **My Linux Administration Notes:** [Open Notes](https://resonant-squirrel-9a6.notion.site/Linux-Administration-Course-3901394011ca8081b0e5d965f8ddc8b6?source=copy_link)
 
 ---
 
