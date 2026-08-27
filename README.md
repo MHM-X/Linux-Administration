@@ -19,7 +19,7 @@ Alongside the course, I created my own notebook containing the concepts, command
 
 🔗 **My Linux Administration Notes:** [Open Notes](https://resonant-squirrel-9a6.notion.site/Linux-Administration-Course-3901394011ca8081b0e5d965f8ddc8b6?source=copy_link)
 
----
+
 
 ## Practical Labs
 
