@@ -7,7 +7,7 @@ Enter the name of the murderer in the file /home/admin/mysolution, for example e
 
 Hints are at the base of the /home/admin/clmystery directory. Enjoy the investigation!
 
-🔗 **Lab Link:** [SadServers - "Saint John"](https://sadservers.com/scenario/command-line-murders)
+🔗 **Lab Link:** [SadServers - The Command Line Murders](https://sadservers.com/scenario/command-line-murders)
 
 <br>
 
