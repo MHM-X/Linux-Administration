@@ -7,7 +7,7 @@ Find what's the IP address that has the most requests in this file (there's no t
 
 NOTE: The solution IP shows 482 times, ie grep -c -F -f highestip.txt access.log returns 482, if your solution has a different (lower) number you got the wrong most common IP.
 
-🔗 **Lab Link:** [SadServers - "Saint John"](https://sadservers.com/scenario/saskatoon)
+🔗 **Lab Link:** ["Saskatoon": counting IPs](https://sadservers.com/scenario/saskatoon)
 
 <br>
 
