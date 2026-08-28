@@ -17,8 +17,9 @@ Tip: There's bc, Python3, Golang and sqlite3 installed in this VM.
 
 ## 🪜 Steps
 
-### Step 1:
+### Step 1: Calculate the Average Score Using AWK
 
 ```bash
+awk '{sum += $2; count++} END {printf "%.2f\n", sum/count}' /home/admin/scores.txt > ~/solution
 ```
 
