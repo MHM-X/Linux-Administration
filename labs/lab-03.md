@@ -167,7 +167,7 @@ md5sum ~/mysolution
 ```
 
 
-the wright name was: "oe Germuska".
+the wright name was: "Joe Germuska".
 ```bash
 admin@ip-10-1-13-179:~/clmystery$ echo "Joe Germuska" > ~/mysolution
 admin@ip-10-1-13-179:~/clmystery$ md5sum ~/mysolution
