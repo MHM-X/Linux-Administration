@@ -49,7 +49,7 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 | 08 | [Linux Server Review - Guided Learning](labs/lab-08.md) |
 | 09 | ["Tokamachi": Troubleshooting a Named Pipe](labs/lab-09.md) |
 | 10 | ["Yokohama": Linux Users Working Together](labs/lab-10.md) |
-| 11 | [Lab 11](labs/lab-11.md) |
+| 11 | ["Fukuoka": Forbidden Association](labs/lab-11.md) |
 | 12 | [Lab 12](labs/lab-12.md) |
 | 13 | [Lab 13](labs/lab-13.md) |
 | 14 | [Lab 14](labs/lab-14.md) |
