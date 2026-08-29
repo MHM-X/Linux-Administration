@@ -41,19 +41,19 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 |---|-----|
 | 01 | ["Saint John": what is writing to this log file?](labs/lab-01.md) |
 | 02 | ["Saskatoon": counting IPs.](labs/lab-02.md) |
-| 03 | [Lab 03](Linux-Administration/labs/lab-03.md) |
-| 04 | [Lab 04](Linux-Administration/labs/lab-04.md) |
-| 05 | [Lab 05](Linux-Administration/labs/lab-05.md) |
-| 06 | [Lab 06](Linux-Administration/labs/lab-06.md) |
-| 07 | [Lab 07](Linux-Administration/labs/lab-07.md) |
-| 08 | [Lab 08](Linux-Administration/labs/lab-08.md) |
-| 09 | [Lab 09](Linux-Administration/labs/lab-09.md) |
-| 10 | [Lab 10](Linux-Administration/labs/lab-10.md) |
-| 11 | [Lab 11](Linux-Administration/labs/lab-11.md) |
-| 12 | [Lab 12](Linux-Administration/labs/lab-12.md) |
-| 13 | [Lab 13](Linux-Administration/labs/lab-13.md) |
-| 14 | [Lab 14](Linux-Administration/labs/lab-14.md) |
-| 15 | [Lab 15](Linux-Administration/labs/lab-15.md) |
+| 03 | ["The Command Line Murders"](labs/lab-03.md) |
+| 04 | ["Lhasa": Easy Math](labs/lab-04.md) |
+| 05 | ["Bata": Find in /proc](labs/lab-05.md) |
+| 06 | [Lab 06](labs/lab-06.md) |
+| 07 | [Lab 07](labs/lab-07.md) |
+| 08 | [Lab 08](labs/lab-08.md) |
+| 09 | [Lab 09](labs/lab-09.md) |
+| 10 | [Lab 10](labs/lab-10.md) |
+| 11 | [Lab 11](labs/lab-11.md) |
+| 12 | [Lab 12](labs/lab-12.md) |
+| 13 | [Lab 13](labs/lab-13.md) |
+| 14 | [Lab 14](labs/lab-14.md) |
+| 15 | [Lab 15](labs/lab-15.md) |
 
 ---
 
