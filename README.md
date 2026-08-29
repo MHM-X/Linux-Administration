@@ -43,8 +43,8 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 | 02 | ["Saskatoon": counting IPs.](labs/lab-02.md) |
 | 03 | ["The Command Line Murders"](labs/lab-03.md) |
 | 04 | ["Taipei": Come a-knocking](labs/lab-04.md) |
-| 05 | ["Bata": Find in /proc](labs/lab-05.md) |
-| 06 | [Lab 06](labs/lab-06.md) |
+| 05 | ["Lhasa": Easy Math](labs/lab-05.md) |
+| 06 | ["Bata": Find in /proc](labs/lab-06.md) |
 | 07 | [Lab 07](labs/lab-07.md) |
 | 08 | [Lab 08](labs/lab-08.md) |
 | 09 | [Lab 09](labs/lab-09.md) |
