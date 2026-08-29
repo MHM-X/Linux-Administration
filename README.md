@@ -6,6 +6,8 @@
 </p>
 
 <p align="center">
+  <sub>View my SadServers badge</sub>
+  <br>
   <a href="https://sadservers.com/u/Mahmoud+Mallouh">
     <img src="https://img.shields.io/badge/SadServers-Intermediate-2962FF?style=for-the-badge&labelColor=FFC400&logo=ansible&logoColor=1A237E&logoSize=auto" alt="SadServers Level">
   </a>
