@@ -42,7 +42,7 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 | 01 | ["Saint John": what is writing to this log file?](labs/lab-01.md) |
 | 02 | ["Saskatoon": counting IPs.](labs/lab-02.md) |
 | 03 | ["The Command Line Murders"](labs/lab-03.md) |
-| 04 | ["Lhasa": Easy Math](labs/lab-04.md) |
+| 04 | ["Taipei": Come a-knocking](labs/lab-04.md) |
 | 05 | ["Bata": Find in /proc](labs/lab-05.md) |
 | 06 | [Lab 06](labs/lab-06.md) |
 | 07 | [Lab 07](labs/lab-07.md) |
