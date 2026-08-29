@@ -15,7 +15,7 @@ We can write a script to calculate the MD5 hash of each file. The file with a di
 
 Then, we can use a tool to compare the different file with one of the original files.
 
-In the previous stage, I wrote a Bash script that can be useful for this task: 🔗 [Text-based Diff tool](https://github.com/MHM-X/Bash-Scripting/blob/main/Text-Processing-Projects/05-text-based-diff-tool.md)
+In the previous stage, I wrote a Bash script that can be useful for this task: [Text-based Diff tool](https://github.com/MHM-X/Bash-Scripting/blob/main/Text-Processing-Projects/05-text-based-diff-tool.md)
 
 However, using the tool this way is overkill. We can simply use:
 
