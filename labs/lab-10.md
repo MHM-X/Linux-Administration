@@ -13,8 +13,14 @@ Secondly, they have asked you to modify the file shared/ALL so that any of these
 
 ## 🪜 Steps
 
-### Step 1: 
+### Step 1: Thinking
+- We need to give all users the permission to read `/home/admin/shared`. But only the owners can modify their own files.
+- All four users can add new content to the file `/home/admin/shared/ALL`, but they can't edit the existing content.
+
+### Step 2: Let's first view the current files list
 
 ```bash
-
+ls -la /home/admin/shared
 ```
+
+<img width="682" height="206" alt="image" src="https://github.com/user-attachments/assets/e6f049c0-6434-4db8-b871-8e33e4e45e00" />
