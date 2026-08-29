@@ -45,7 +45,7 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 | 04 | ["Taipei": Come a-knocking](labs/lab-04.md) |
 | 05 | ["Lhasa": Easy Math](labs/lab-05.md) |
 | 06 | ["Bata": Find in /proc](labs/lab-06.md) |
-| 07 | [Lab 07](labs/lab-07.md) |
+| 07 | ["Apia": Needle in a Haystack](labs/lab-07.md) |
 | 08 | [Lab 08](labs/lab-08.md) |
 | 09 | [Lab 09](labs/lab-09.md) |
 | 10 | [Lab 10](labs/lab-10.md) |
