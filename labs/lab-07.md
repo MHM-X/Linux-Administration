@@ -47,8 +47,10 @@ diff /home/admin/data/file76.txt  /home/admin/data/file0.txt
 
 <img width="1177" height="372" alt="Screenshot 2026-08-29 124356" src="https://github.com/user-attachments/assets/9e87419d-f2f0-4533-946c-a72fa3549e7d" />
 
-# 3c3 تعني أن هناك اختلافًا في السطر 3 من الملف الأول والسطر 3 من الملف الثاني.
-# c: هو اختصار لـ change، أي تغيير.
+`3c3` means that line 3 in the first file differs from line 3 in the second file.
+
+`c` stands for **change**, meaning that the line was changed.
+
 
 ### Step 5: Then, after finding the different word:
 
