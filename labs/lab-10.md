@@ -61,4 +61,26 @@ sudo chgrp project /home/admin/shared/project_*
 sudo chmod g+r /home/admin/shared/project_*
 ```
 
-### Step 4:
+<img width="933" height="597" alt="Screenshot 2026-08-29 202857" src="https://github.com/user-attachments/assets/2758e2b5-54c8-4633-89a1-69cd6b31c127" />
+
+### Step 4: Make the file All can be appended but not modified from the same 4 users
+
+- The file group should be project
+  
+```bash
+sudo chgrp project /home/admin/shared/ALL
+```
+
+- Give write permission for the group project on the file `home/admin/shared/ALL`
+
+```bash
+sudo chmod g+w /home/admin/shared/ALL
+```
+
+- Make the permission for append only
+
+```bash
+sudo chattr +a /home/admin/shared/ALL
+```
+
+<img width="846" height="296" alt="Screenshot 2026-08-29 203432" src="https://github.com/user-attachments/assets/332e64ab-0182-4ecd-bc87-ff7c085f67d4" />
