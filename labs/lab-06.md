@@ -17,6 +17,8 @@ Find the file and save the word after "secret:" to the file /home/admin/secret.t
 grep -RIs '^secret:' /proc/sys 2>/dev/null
 ```
 
+<img width="837" height="76" alt="image" src="https://github.com/user-attachments/assets/bc531015-b8e7-4e14-aca1-29f80a7dacff" />
+
 ### Step 2: using a grep command to solve the lab
 
 ```bash
