@@ -18,8 +18,6 @@ clues:
 
 5. Make the ALL file writeable by the group: sudo chmod 0664 /home/admin/shared/ALL
 
-(Next Clue will give the last command needed for the solution).
-
 6. Make the ALL file append-only: sudo chattr +a /home/admin/shared/ALL
 
 🔗 **Lab Link:** [SadServers - "Yokohama": Linux Users Working Together](https://sadservers.com/scenario/yokohama)
