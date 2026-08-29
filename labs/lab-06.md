@@ -23,7 +23,10 @@ grep -RIs '^secret:' /proc/sys 2>/dev/null
 grep -RIs '^secret:' /proc/sys 2>/dev/null | cut -d: -f3 > /home/admin/secret.txt
 
 # -d: → اجعل : هو delimiter
-# -f3 → خذ الحقل الثالث
+# -f3 →خذ الحقل الثالث
+# -R → recursive
+# -I → ignore binary
+# -s → suppress error messages
 ```
 
 Or:
