@@ -1,4 +1,4 @@
-# Lab 06: "Bucharest": "Bata": Find in /proc
+# Lab 06: "Bata": Find in /proc
 
 ## Description
 A spy has left a password in a file in /proc/sys . The contents of the file start with "secret:" (without the quotes).
