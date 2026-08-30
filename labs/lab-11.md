@@ -22,12 +22,7 @@ sudo nginx -T 2>&1 | grep -E 'root|index'
 # -T: Test the Nginx configuration and dump the full configuration.
 ```
 
-Example output:
-
-```
-root /var/www/html;
-index index.html;
-```
+<img width="817" height="193" alt="image" src="https://github.com/user-attachments/assets/e086391b-e166-45da-aedd-776cfadc8d41" />
 
 This means a request to `curl localhost` will make Nginx look for:
 
@@ -43,11 +38,7 @@ This means a request to `curl localhost` will make Nginx look for:
 sudo ls -l /var/www/html/index.html
 ```
 
-Example output:
-
-```
-lrwxrwxrwx 1 root root ... /var/www/html/index.html -> /opt/site-content/real_index.html
-```
+<img width="1123" height="47" alt="image" src="https://github.com/user-attachments/assets/bf661434-7d15-4b15-985a-def3031696e5" />
 
 The leading `l` means `index.html` is a **symbolic link**, and the arrow shows where it actually points:
 
@@ -63,11 +54,7 @@ The leading `l` means `index.html` is a **symbolic link**, and the arrow shows w
 sudo ls -l /opt/site-content/real_index.html
 ```
 
-Example output:
-
-```
--rw-r----- 1 root root ... real_index.html
-```
+<img width="861" height="45" alt="image" src="https://github.com/user-attachments/assets/e6e62246-f645-4244-8f19-c713e9a49c43" />
 
 Permissions breakdown (`640`):
 
@@ -85,15 +72,14 @@ The problem: Nginx runs as `www-data`. If the file's group is `root`, `www-data`
 ps aux | grep nginx
 ```
 
-Example output:
+<img width="1178" height="137" alt="image" src="https://github.com/user-attachments/assets/955d1d65-e49e-4b01-9927-8fad1fdf394b" />
 
-```
-root      ... nginx: master process
-www-data  ... nginx: worker process
-```
 
 The **worker process** — the one that actually handles requests — runs as `www-data`.
 
+ 
+> **Note — why the worker's identity matters:** the worker is the process that actually opens and reads `index.html`, so Linux checks *its* identity against the file's permissions, not root's. Linux checks in order: is the process the file's **owner**? Is it a member of the file's **group**? If neither, it falls under **others**. Since `www-data` was neither the owner (`root`) nor in the group (`root`), it landed in `others` — which had no permissions (`---`) — and the read was denied. That's exactly why the fix is to make `www-data` the file's group, not just leave ownership at `root`.
+ 
 ---
 
 ## Step 5 — Grant `www-data` read access
@@ -136,6 +122,8 @@ If you still don't see the expected content (e.g. `Welcome to the Real Site!`), 
 sudo ls -ld /var/www
 ```
 
+<img width="602" height="51" alt="image" src="https://github.com/user-attachments/assets/03eee12d-ff4c-4b35-8ea5-38ffe4a889da" />
+
 `/var/www` may be missing the execute (`x`) permission for **others**. On a directory, `x` allows a process to traverse into it and reach the files inside — even if the target file itself is readable, Nginx must be able to walk the full path to get there.
 
 ---
@@ -145,6 +133,8 @@ sudo ls -ld /var/www
 ```bash
 sudo chmod o+x /var/www
 ```
+
+<img width="597" height="47" alt="image" src="https://github.com/user-attachments/assets/47c28a50-5883-424b-a8a1-c63fcac51332" />
 
 Breakdown:
 
@@ -162,50 +152,6 @@ Breakdown:
 curl localhost
 ```
 
-Expected output:
-
-```
-Welcome to the Real Site!
-```
-
----
-
-## Complete Solution
-
-```bash
-# 1. Find Nginx root/index configuration
-sudo nginx -T 2>&1 | grep -E 'root|index'
-
-# 2. Check the web file
-sudo ls -l /var/www/html/index.html
-
-# 3. Check the symbolic link target
-sudo ls -l /opt/site-content/real_index.html
-
-# 4. Check the Nginx worker user
-ps aux | grep nginx
-
-# 5. Change the group to www-data
-sudo chown root:www-data /opt/site-content/real_index.html
-
-# 6. Set minimal file permissions
-sudo chmod 640 /opt/site-content/real_index.html
-
-# 7. Check the parent directory
-sudo ls -ld /var/www
-
-# 8. Allow directory traversal
-sudo chmod o+x /var/www
-
-# 9. Test
-curl localhost
-```
-
-## Key Takeaways
-
-- A symlinked `index.html` means the **target file's** ownership and permissions matter, not just the link itself.
-- Nginx's worker process runs as `www-data` (not `root`) — it needs explicit read access.
-- Directory traversal (`x`) permission is required on **every directory in the path**, not just the final file.
-
+<img width="746" height="52" alt="image" src="https://github.com/user-attachments/assets/24dee3ab-4042-43f7-807e-03956e7efd2e" />
 
 
