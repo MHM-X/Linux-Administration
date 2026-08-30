@@ -20,6 +20,7 @@ systemctl list-timers --all
 ```
 
 <img width="1181" height="247" alt="Screenshot 2026-08-30 234920" src="https://github.com/user-attachments/assets/004c020d-9ca6-4805-b1bd-cde60b115aa2" />
+
 >Notice that the list of timers doesn't include: health.timer Even though the lab description says there's a systemd timer responsible for running health.sh.
 This means there are two possibilities: 1- The timer has a different name than health.timer. -2- Or the timer isn't loaded/doesn't exist in the current systemd list.
 
@@ -28,6 +29,7 @@ sudo find /etc/systemd /usr/lib/systemd -name '*health*.timer' 2>/dev/null
 ```
 
 <img width="1156" height="50" alt="Screenshot 2026-08-30 235031" src="https://github.com/user-attachments/assets/06edf0ac-71a7-4e70-aef1-00059b9d60e4" />
+
 >The file exists: `/etc/systemd/system/health.timer` But systemctl list-timers --all didn't show it, which suggests that the timer isn't loaded/active right now.
 But systemctl list-timers --all didn't show it, which suggests that the timer isn't loaded/active right now.
 Now we want to check its status:
