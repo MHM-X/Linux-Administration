@@ -52,7 +52,7 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 | 11 | ["Fukuoka": Forbidden Association](labs/lab-11.md) |
 | 12 | ["Rio de Janeiro": Do we have another option?](labs/lab-12.md) |
 | 13 | ["Nuuk": More SSH Troubles](labs/lab-13.md) |
-| 14 | [Lab 14](labs/lab-14.md) |
+| 14 | ["Cairo": Time for a Timer](labs/lab-14.md) |
 | 15 | [Lab 15](labs/lab-15.md) |
 
 ---
