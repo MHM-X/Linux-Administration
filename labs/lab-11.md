@@ -19,6 +19,7 @@ Review the Nginx configuration to see which file it's looking for:
 
 ```bash
 sudo nginx -T 2>&1 | grep -E 'root|index'
+# -T: Test the Nginx configuration and dump the full configuration.
 ```
 
 Example output:
