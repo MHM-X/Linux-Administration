@@ -40,7 +40,6 @@ executable/Main has been compiled by a more recent version of the Java Runtime
 this version of the Java Runtime only recognizes class file versions up to 52.0
 
 >What does it mean?
-
 There is a mismatch between the version of Java that Jenkins needs and the version of Java currently installed.
 
 ### Step 4: Configuring Java version
