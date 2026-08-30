@@ -9,7 +9,8 @@ This scenario server is dedicated to Jenkins, a Java application managed by syst
 
 ## 🪜 Steps
 
-### Step 1:
+### Step 1: Check Jenkins service status
 
 ```bash
+sudo systemctl status jenkins
 ```
