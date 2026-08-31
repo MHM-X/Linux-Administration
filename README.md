@@ -53,7 +53,7 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 | 12 | ["Rio de Janeiro": Do we have another option?](labs/lab-12.md) |
 | 13 | ["Nuuk": More SSH Troubles](labs/lab-13.md) |
 | 14 | ["Cairo": Time for a Timer](labs/lab-14.md) |
-| 15 | [Lab 15](labs/lab-15.md) |
+| 15 | ["Alexandria": The Vanishing Backups](labs/lab-15.md) |
 
 ---
 
