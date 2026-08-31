@@ -21,7 +21,10 @@ The cgroup v2 hard limit is in place: cat /sys/fs/cgroup/sad-batch/memory.max pr
 
 ## 🪜 Steps
 
-### Step 1: 
+### Step 1:  Read the handoff notes: cat /home/admin/incident-notes.txt. Confirm the API is healthy: systemctl status sad-api and curl -s http://127.0.0.1:9090/. List the launcher scripts: ls -l /opt/sad/.
 
 ```bash
+cat /home/admin/incident-notes.txt
 ```
+
+<img width="1147" height="600" alt="image" src="https://github.com/user-attachments/assets/4a89aebc-2f89-44e5-b15c-82d18f46f79b" />
