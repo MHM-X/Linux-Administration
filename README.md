@@ -9,7 +9,7 @@
   <sub>View my badge</sub>
   <br><br>
   <a href="https://sadservers.com/u/Mahmoud+Mallouh">
-    <img src="https://img.shields.io/badge/SadServers-Intermediate-2962FF?style=for-the-badge&labelColor=FFC400&logo=ansible&logoColor=1A237E&logoSize=auto" alt="SadServers Level">
+    <img src="https://img.shields.io/badge/SadServers-Advanced-7B1FA2?style=for-the-badge&labelColor=FFC400&logo=terraform&logoColor=1A237E&logoSize=auto" alt="SadServers Level">
   </a>
 </p>
 
