@@ -55,6 +55,7 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 | 14 | ["Cairo": Time for a Timer](labs/lab-14.md) |
 | 15 | ["Alexandria": The Vanishing Backups](labs/lab-15.md) |
 | 16 | ["Kortenberg": Can't touch this!](labs/lab-16.md) |
+| 17 | ["Valladolid": Cleaner not cleaning](labs/lab-17.md) |
 
 
 ---
