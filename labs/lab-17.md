@@ -9,6 +9,8 @@ Fix the service and/or the script so that old_data.log (older than 7 days) is de
 
 If you accidentally delete the wrong files while debugging, run ~/reset_logs.sh to restore them.
 
+Test: Running sudo systemctl restart log-cleaner deletes the file /var/log/app/old_data.log but not /var/log/app/recent_data.log
+
 🔗 **Lab Link:** [SadServers - "Valladolid": Cleaner not cleaning](https://sadservers.com/scenario/valladolid)
 
 <br>
