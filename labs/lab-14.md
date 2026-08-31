@@ -67,3 +67,41 @@ sudo systemctl status health.timer
 
 <img width="850" height="160" alt="Screenshot 2026-08-30 235627" src="https://github.com/user-attachments/assets/216c5ff3-31ce-46bf-971a-dbcef6113f12" />
 
+---
+
+### There is still another problem with the firewall
+
+ Check the iptables rules with: sudo iptables -L -n , this lists the rules in the default filter table (there are other tables that won't list their rules with this command).
+
+```bash
+sudo iptables -L -n
+```
+
+<img width="1172" height="817" alt="Screenshot 2026-08-31 000406" src="https://github.com/user-attachments/assets/4407d226-4053-45a4-945f-f51e03315ef6" />
+
+The command shows a DROP policy for 127.0.0.1 when the destination is port tcp:80 , easier to see with: sudo iptables -L OUTPUT -n --line-numbers
+
+```bash
+ sudo iptables -L OUTPUT -n --line-numbers
+```
+
+<img width="1167" height="187" alt="image" src="https://github.com/user-attachments/assets/748c44aa-0559-4716-8784-3a79e653b241" />
+
+>`1    DROP    tcp    --    0.0.0.0/0    127.0.0.1    tcp dpt:80` means:
+If there's any outgoing TCP connection from this server, from any source, going to 127.0.0.1 on port 80, drop it.
+
+Delete the IPv4 rule by line number: sudo iptables -D OUTPUT 1. Although we are not going to reboot this instance for this exercise, it's good practice to save the iptable state with sudo sh -c 'iptables-save > /etc/iptables/rules.v4' (you can do the same with ip6tables).
+
+```bash
+sudo iptables -D OUTPUT 1
+```
+
+<img width="1157" height="117" alt="image" src="https://github.com/user-attachments/assets/406cce46-eea2-425d-9087-e85aefed886a" />
+
+Although we are not going to reboot this instance for this exercise, it's good practice to save the iptable state with sudo sh -c 'iptables-save > /etc/iptables/rules.v4' (you can do the same with ip6tables).
+
+---
+
+### Now we solved the two problems and when we run `cat var/log/health.log` we will see STATUS: OK
+
+<img width="780" height="855" alt="Screenshot 2026-08-31 000633" src="https://github.com/user-attachments/assets/41a1a753-17c3-401d-8419-a85c0f5ffef3" />
