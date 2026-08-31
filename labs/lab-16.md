@@ -1,4 +1,4 @@
-# Lab 01:  "Kortenberg": Can't touch this!
+# Lab 16:  "Kortenberg": Can't touch this!
 
 ## Description
 Is "All I want for Christmas is you" already everywhere?. A bit unrelated, someone messed up the permissions in this server, the admin user can't list new directories and can't write into new files. Fix the issue.
