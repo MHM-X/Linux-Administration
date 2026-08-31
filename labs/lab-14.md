@@ -91,6 +91,14 @@ The command shows a DROP policy for 127.0.0.1 when the destination is port tcp:8
 If there's any outgoing TCP connection from this server, from any source, going to 127.0.0.1 on port 80, drop it.
 
 Delete the IPv4 rule by line number: sudo iptables -D OUTPUT 1. Although we are not going to reboot this instance for this exercise, it's good practice to save the iptable state with sudo sh -c 'iptables-save > /etc/iptables/rules.v4' (you can do the same with ip6tables).
+> **Note:** `iptables -D OUTPUT 1` removes the rule from the current firewall state, which is enough to fix the issue for this lab. However, this change may not persist after a reboot. To save the current iptables state and make the change persistent, use:
+>
+> ```bash
+> sudo sh -c 'iptables-save > /etc/iptables/rules.v4'
+> ```
+>
+> The same can be done with `ip6tables` for IPv6 rules.
+
 
 ```bash
 sudo iptables -D OUTPUT 1
