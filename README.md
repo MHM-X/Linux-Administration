@@ -58,6 +58,7 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 | 17 | ["Valladolid": Cleaner not cleaning](labs/lab-17.md) |
 | 18 | ["Porto": Port audit without net tools](labs/lab-18.md) |
 | 19 | ["Bologna": counting ELB 5xx errors](labs/lab-19.md) |
+| 20 | ["Genova": cgroups problem](labs/lab-20.md) |
 
 
 ---
