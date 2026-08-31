@@ -23,8 +23,8 @@ sudo systemctl status cron
 ```
 
 <img width="1182" height="457" alt="image" src="https://github.com/user-attachments/assets/56788da7-9034-4f53-855f-ca4c36178885" />
->At 13:45:01, cron ran /opt/backup/old_backup.sh as the root user, and all output and errors were ignored.
-This means there’s a Cron job running, but it’s running: `/opt/backup/old_backup.sh` While the laptop description says the correct script is: `/opt/backup/backup.sh` So we have strong suspicion that the cron job is pointing to an old/wrong script.
+
+>At 13:45:01, cron ran /opt/backup/old_backup.sh as the root user, and all output and errors were ignored. This means there’s a Cron job running, but it’s running: `/opt/backup/old_backup.sh` While the laptop description says the correct script is: `/opt/backup/backup.sh` So we have strong suspicion that the cron job is pointing to an old/wrong script.
 
 this command will not help us as the important one is `sudo crontab -l`
 
