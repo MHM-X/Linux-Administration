@@ -57,6 +57,7 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 | 16 | ["Kortenberg": Can't touch this!](labs/lab-16.md) |
 | 17 | ["Valladolid": Cleaner not cleaning](labs/lab-17.md) |
 | 18 | ["Porto": Port audit without net tools](labs/lab-18.md) |
+| 19 | ["Bologna": counting ELB 5xx errors](labs/lab-19.md) |
 
 
 ---
