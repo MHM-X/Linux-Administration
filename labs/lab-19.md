@@ -15,7 +15,6 @@ Test: The MD5 checksum of your answer file md5sum /home/admin/solution.txt is b7
 
 ## 🪜 Steps
 
-### Step 1: 
-
 ```bash
+awk '$9 >= 500 && $9 <= 599 {count++} END {print count}' /home/admin/elb.log > /home/admin/solution.txt
 ```
