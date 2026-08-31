@@ -60,4 +60,4 @@ sudo nano /etc/profile
 
 <img width="1173" height="880" alt="Screenshot 2026-08-31 190543" src="https://github.com/user-attachments/assets/1a51dbbd-50d7-44eb-8cd8-0faf264a48b6" />
 
->just change it from 077 to 022
+>just change it from 777 to 022
