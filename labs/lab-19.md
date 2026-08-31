@@ -18,3 +18,5 @@ Test: The MD5 checksum of your answer file md5sum /home/admin/solution.txt is b7
 ```bash
 awk '$9 >= 500 && $9 <= 599 {count++} END {print count}' /home/admin/elb.log > /home/admin/solution.txt
 ```
+
+<img width="1178" height="140" alt="image" src="https://github.com/user-attachments/assets/d20793e6-2786-4494-9231-a7275efcc19c" />
