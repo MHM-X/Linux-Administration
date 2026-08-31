@@ -27,7 +27,18 @@ Test: The file /home/admin/port-audit.txt exists and correctly reports whether e
 
 ## 🪜 Steps
 
-### Step 1: 
-
 ```bash
+# ports-loop.sh
+
+#!/bin/bash
+while read -r port; do
+    if timeout 2 bash -c "</dev/tcp/127.0.0.1/$port" 2>/dev/null; then
+        echo "$port open"
+    else
+        echo "$port closed"
+    fi
+done < /home/admin/ports-to-scan.txt | sort -n -k1,1 > /home/admin/port-audit.txt
 ```
+
+<img width="1171" height="293" alt="Screenshot 2026-08-31 225520" src="https://github.com/user-attachments/assets/cfccec4e-9cae-41e0-964b-b4e5b40bda26" />
+
