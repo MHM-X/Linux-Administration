@@ -37,7 +37,13 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 
 ### 🖥️ SadServers Labs
 
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
 #### Easy
+
 | # | Lab |
 |---|-----|
 | 01 | ["Saint John": what is writing to this log file?](labs/lab-01.md) |
@@ -62,10 +68,18 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 | 21 | ["Bergen": Port already in use](labs/lab-21.md) |
 | 22 | ["Nara": No ls on this system](labs/lab-22.md) |
 
+</td>
+<td valign="top" width="50%">
+
 #### Medium
+
 | # | Lab |
 |---|-----|
-| 01 | ["Manhattan": can't write data into database.](labs/lab-23.md) |
+| 01 | ["Manhattan": can't write data into database](labs/lab-23.md) |
+
+</td>
+</tr>
+</table>
 
 ---
 
