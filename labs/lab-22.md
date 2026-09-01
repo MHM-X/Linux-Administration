@@ -16,7 +16,4 @@ Test: md5sum /home/admin/solution.txt returns 8d3b739ebccb41c7c39e608d7a3e0bd6 (
 
 ## 🪜 Steps
 
-### Step 1:
-
-```bash
-```
+>Since `ls` and `find` were unavailable, we used alternative ways to search recursively for `shosoin.tag` under `/home/admin/records`. First, Bash globbing with `echo *` or `printf '%s\n' *` can list the contents of the current directory, allowing us to move into subdirectories manually. Second, enabling `globstar` with `shopt -s globstar` allows `**` to recursively match files and directories at any depth. Third, commands such as `tree`, `du -a`, `tar`, and `rsync` can also walk through the directory tree and reveal the file path.
