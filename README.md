@@ -78,6 +78,15 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 | 01 | ["Manhattan": can't write data into database](labs/lab-23.md) |
 
 </td>
+<td valign="top" width="50%">
+
+#### Medium
+
+| # | Lab |
+|---|-----|
+| 01 | ["Manhattan": can't write data into database](labs/lab-23.md) |
+
+</td>
 </tr>
 </table>
 
