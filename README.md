@@ -76,6 +76,7 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 | # | Lab |
 |---|-----|
 | 01 | ["Manhattan": can't write data into database](labs/lab-23.md) |
+| 02 | ["Cape Town": Borked Nginx](labs/lab-24.md) |
 
 </td>
 
