@@ -59,6 +59,7 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 | 18 | ["Porto": Port audit without net tools](labs/lab-18.md) |
 | 19 | ["Bologna": counting ELB 5xx errors](labs/lab-19.md) |
 | 21 | ["Bergen": Port already in use](labs/lab-21.md) |
+| 22 | ["Nara": No ls on this system](labs/lab-22.md) |
 
 
 ---
