@@ -77,6 +77,9 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 |---|-----|
 | 01 | ["Manhattan": can't write data into database](labs/lab-23.md) |
 | 02 | ["Cape Town": Borked Nginx](labs/lab-24.md) |
+| 03 | ["Oaxaca": Close an Open File](labs/lab-25.md) |
+| 04 | ["Melbourne": WSGI with Gunicorn](labs/lab-26.md) |
+| 05 | ["Lisbon": etcd SSL cert troubles](labs/lab-27.md) |
 
 </td>
 
