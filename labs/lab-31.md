@@ -11,7 +11,12 @@ Test: The size of the compressed file is smaller than 9400 bytes.
 
 ## 🪜 Steps
 
-### Step 1: 
+### If you sort the file before compressing it you'll achieve better compression.
 
 ```bash
+sort names > names-sorted
+
+xz -k names-sorted
+
+mv names-sorted.xz solution/
 ```
