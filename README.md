@@ -83,6 +83,7 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 | 06 | ["Kihei": Surely Not Another Disk Space Scenario](labs/lab-28.md) |
 | 07 | ["Paris": Where is my webserver?](labs/lab-29.md) |
 | 08 | ["Marrakech": Word Histogram](labs/lab-30.md) |
+| 09 | ["Manado": How much do you press?](labs/lab-31.md) |
 
 </td>
 
