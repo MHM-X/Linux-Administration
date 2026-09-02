@@ -82,6 +82,7 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 | 05 | ["Lisbon": etcd SSL cert troubles](labs/lab-27.md) |
 | 06 | ["Kihei": Surely Not Another Disk Space Scenario](labs/lab-28.md) |
 | 07 | ["Paris": Where is my webserver?](labs/lab-29.md) |
+| 08 | ["Marrakech": Word Histogram](labs/lab-30.md) |
 
 </td>
 
