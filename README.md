@@ -81,6 +81,7 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 | 04 | ["Melbourne": WSGI with Gunicorn](labs/lab-26.md) |
 | 05 | ["Lisbon": etcd SSL cert troubles](labs/lab-27.md) |
 | 06 | ["Kihei": Surely Not Another Disk Space Scenario](labs/lab-28.md) |
+| 07 | ["Paris": Where is my webserver?](labs/lab-29.md) |
 
 </td>
 
