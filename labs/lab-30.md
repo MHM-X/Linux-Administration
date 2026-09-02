@@ -17,7 +17,38 @@ Test: echo "SOLUTION" | md5sum returns 19bf32b8725ec794d434280902d78e18
 
 ## 🪜 Steps
 
-### Step 1:
+### The solution is writing a bash script to find the required word 
 
 ```bash
+#!/bin/bash
+
+declare -A count
+
+while IFS= read -r line; do
+
+    # Replace the separators with spaces
+    line=$(tr '.,:;' '    ' <<< "$line")
+
+    for word in $line; do
+
+        # Convert to lowercase
+        word=${word,,}
+
+        # Count the word
+        current=${count["$word"]:-0}
+        count["$word"]=$((current + 1))
+
+    done
+
+done < /home/admin/frankestein.txt
+
+
+# Find the second most frequent word
+second=$(for word in "${!count[@]}"; do
+    printf '%s %s\n' "${count[$word]}" "$word"
+done | sort -nr | sed -n '2p' | awk '{print $2}')
+
+
+# Save the answer in uppercase
+echo "${second^^}" > /home/admin/mysolution
 ```
