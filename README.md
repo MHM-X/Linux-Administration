@@ -84,6 +84,8 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 | 07 | ["Paris": Where is my webserver?](labs/lab-29.md) |
 | 08 | ["Marrakech": Word Histogram](labs/lab-30.md) |
 | 09 | ["Manado": How much do you press?](labs/lab-31.md) |
+| 10 | ["Moyogalpa": Security Snag. The Trials of Mary and John](labs/lab-32.md) |
+| 11 | ["Bekasi": Supervisor is still around](labs/lab-33.md) |
 
 </td>
 
