@@ -86,6 +86,7 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 | 09 | ["Manado": How much do you press?](labs/lab-31.md) |
 | 10 | ["Moyogalpa": Security Snag. The Trials of Mary and John](labs/lab-32.md) |
 | 11 | ["Bekasi": Supervisor is still around](labs/lab-33.md) |
+| 12 | ["Tukaani": XZ LZMA Library Compromised](labs/lab-34.md) |
 
 </td>
 
