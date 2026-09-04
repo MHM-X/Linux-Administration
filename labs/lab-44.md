@@ -161,6 +161,3 @@ sudo du -sh /
 # Verify that no deleted files are still held open
 sudo lsof +L1
 ```
-
-```
-```
