@@ -87,6 +87,19 @@ Real-world Linux troubleshooting scenarios from **[SadServers](https://sadserver
 | 10 | ["Moyogalpa": Security Snag. The Trials of Mary and John](labs/lab-32.md) |
 | 11 | ["Bekasi": Supervisor is still around](labs/lab-33.md) |
 | 12 | ["Tukaani": XZ LZMA Library Compromised](labs/lab-34.md) |
+| 13 | ["Hanoi": Find the Multitasking Users](labs/lab-35.md) |
+| 14 | ["Batumi": Troubleshoot "A" cannot connect to "B"](labs/lab-36.md) |
+| 15 | ["Budapest": User Creation](labs/lab-37.md) |
+| 16 | ["Bizerte": The Slow Application](labs/lab-38.md) |
+| 17 | ["Kampala": Strange Script Error](labs/lab-39.md) |
+| 18 | ["Bondo": Split my pile!](labs/lab-40.md) |
+| 19 | ["Podgorica": Docker to Podman migration](labs/lab-41.md) |
+| 20 | ["Sumé": Tied in a Knot](labs/lab-42.md) |
+| 21 | ["Stockholm": DNS health check issue](labs/lab-43.md) |
+| 22 | ["Cordoba": df is lying (or is it du?)](labs/lab-44.md) |
+| 23 | ["Montevideo": restore test snapshot would clobber production](labs/lab-45.md) |
+| 24 | ["Luxor": PostgreSQL analytics queries crawl](labs/lab-46.md) |
+| 25 | ["Vienna": The Vanishing Process](labs/lab-47.md) |
 
 </td>
 
